@@ -1,0 +1,29 @@
+.mainContainer {
+    display:grid ;
+    grid-template-rows : 3ch 1fr;
+    grid-template-columns  : 1fr 1fr ;
+     grid-template-areas : 
+     "title title"
+     "items document";
+     /* min-height:100vh; */
+     /* min-height:20vh; */
+     height:min-content;
+    /* background-color:orange; */
+     width:100px;
+}
+
+.title {
+    grid-area:title;
+    text-align:center;
+    font-weight: 700;
+}
+.itemsContainer {
+    grid-area:items;
+    
+}
+
+.documentContainer {
+     
+    grid-area : document;
+     
+}

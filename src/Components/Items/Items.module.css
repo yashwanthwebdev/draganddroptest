@@ -1,0 +1,56 @@
+ * {
+  
+padding:0px;}
+
+ div {
+    /* outline:solid;
+    outline-color:green; */
+
+}
+
+.mainContainer{
+  height:60ch;
+  /* background-color:blueviolet; */
+  display:flex;
+  flex-direction:column;
+  gap:2ch;
+  width:100%;
+  justify-content:start;
+  align-items:center; 
+  margin-bottom:50ch;
+
+}
+
+.inputContainer1{
+  display:grid;
+  align-items:center;
+  justify-content:center;
+  /* background-color: rgb(45, 71, 71); */
+  margin:0px;
+  padding:0px;
+  padding-left:0px;
+  /* width:min-content; */
+  width:100%;
+  height:min-content;
+  cursor:default;
+  /* background-color:aqua; */
+}
+
+.imageinput1{
+  /* height:1ch;
+  width:10ch; */
+  cursor:pointer;
+  display:inline;
+}
+
+.inputBox{
+  /* width:min-content; */
+  width:9ch;
+  background-color:white;
+  margin:0px;
+  padding:0px;
+  height:4ch;
+  cursor:none;
+
+}
+

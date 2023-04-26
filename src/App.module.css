@@ -1,0 +1,47 @@
+* {
+    /* outline:solid; */
+     
+}
+
+.App{
+    position:relative;
+}
+
+.documentContainer{
+    /* background-color:blue; */
+    /* outline:solid; */
+    /* outline-color:yellow; */
+    width:300px;
+ }
+
+
+.pdfContainer{
+    width:700px;
+    outline:solid;
+    /* outline-color:blue; */
+    /* background-color:rgba(49, 184, 15, 0.705); */
+}
+
+.neededContainer{
+    position:relative;
+    top:10ch;
+    margin-top:10ch;
+ /* background-color: aqua;   */
+ width:min-content;
+ max-width:700px;
+}
+
+.mainContainer{
+    /* display:grid;
+    grid-template-columns : 1fr 1fr; */
+    /* display:flex;
+    flex-direction:row; */
+}
+
+.homeContainer{
+
+    max-width:100px;
+    /* outline-color:orange; */
+    /* background-color:rgb(60, 76, 163); */
+
+}
